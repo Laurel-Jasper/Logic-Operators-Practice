@@ -1,0 +1,58 @@
+/* STYLES THAT AFFECT EVERYTHING */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* MASTER CONTAINER STYLES */ 
+
+.master-container {
+    align-items: center;
+    background-color: #161618;
+    background-image: url("matrix-g3fc19a587_1280.jpg");
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    margin-top: 50px;
+    width: 350px;
+}
+
+/* BUTTON CONTAINER */
+
+.button-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 400px;
+}
+
+/* BUTTON STYLES */
+
+.default {
+    background-color: #161618;
+    border-radius: 5px;
+    border: solid 2px #003800;
+    color: #003800;
+    height: 25px;
+    width: 75px;
+}
+
+.default:hover {
+    border: solid 2px #00FF41;
+    color: #00FF41;
+}
